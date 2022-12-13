@@ -63,7 +63,7 @@ class Build : NukeBuild
 
     IReadOnlyCollection<string> Rids;
 
-    const string PackageName = "open-hd-web-ui";
+    const string PackageName = "open-hd-web-ui-rapha";
 
     protected override void OnBuildInitialized()
     {
@@ -153,7 +153,7 @@ class Build : NukeBuild
         {
             foreach (var debFile in DebBuildPath.GlobFiles("*.deb"))
             {
-                Cloudsmith($"push deb openhd/openhd-2-2-evo/any-distro/any-version {debFile.Name}", DebBuildPath);
+                Cloudsmith($"push deb openhd/openhd-2-2-dev/any-distro/any-version {debFile.Name}", DebBuildPath);
             }
         });
 
