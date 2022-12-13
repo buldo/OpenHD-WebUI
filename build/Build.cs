@@ -63,7 +63,7 @@ class Build : NukeBuild
 
     IReadOnlyCollection<string> Rids;
 
-    const string PackageName = "open-hd-web-ui-rapha";
+    const string PackageName = "open-hd-web-ui";
 
     protected override void OnBuildInitialized()
     {
