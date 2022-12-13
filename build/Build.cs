@@ -63,7 +63,7 @@ class Build : NukeBuild
 
     IReadOnlyCollection<string> Rids;
 
-    const string PackageName = "open-hd-web-ui";
+    const string PackageName = "openhd-webui-dev";
 
     protected override void OnBuildInitialized()
     {

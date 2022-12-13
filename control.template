@@ -1,4 +1,4 @@
-Package: open-hd-web-ui
+Package: openhd-webui-dev
 Version: {{version}}
 Section: utils
 Priority: optional
